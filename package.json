@@ -1,0 +1,39 @@
+{
+  "name": "developer-theme",
+  "displayName": "Developer Theme",
+  "description": "Dark theme for developers.",
+  "version": "0.0.1",
+  "publisher": "nsithlopez",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nsithlopez/developer-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "dark theme",
+    "coding",
+    "coding theme",
+    "coder",
+    "coder theme",
+    "code",
+    "code theme",
+    "developer",
+    "developer theme"
+  ],
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Developer Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/developer-theme-color-theme.json"
+      }
+    ]
+  }
+}
